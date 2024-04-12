@@ -13,7 +13,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"chec page_2\", function () {\r",
+							"pm.test(\"check page_2\", function () {\r",
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
@@ -60,7 +60,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"chec body\", function () {\r",
+							"pm.test(\"check body\", function () {\r",
 							"    pm.response.to.have.jsonBody(\"data.id\",2)\r",
 							"    .and.have.jsonBody(\"data.email\", \"janet.weaver@reqres.in\")\r",
 							"    .and.have.jsonBody(\"data.first_name\", \"Janet\")\r",
@@ -169,7 +169,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"chec body\", function () {\r",
+							"pm.test(\"check body\", function () {\r",
 							"    pm.response.to.have.jsonBody(\"data.id\",2)\r",
 							"    .and.have.jsonBody(\"data.name\", \"fuchsia rose\")\r",
 							"    .and.have.jsonBody(\"data.year\", 2001)\r",
@@ -452,7 +452,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"chec body\", function () {\r",
+							"pm.test(\"check body\", function () {\r",
 							"    pm.response.to.have.jsonBody(\"error\",\"Missing password\")\r",
 							"    ;\r",
 							"});\r",
@@ -539,7 +539,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"chec body\", function () {\r",
+							"pm.test(\"check body\", function () {\r",
 							"    pm.response.to.have.jsonBody(\"error\",\"Missing password\")\r",
 							"    ;\r",
 							"});\r",
@@ -584,7 +584,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"chec body\", function () {\r",
+							"pm.test(\"check body\", function () {\r",
 							"    pm.response.to.have.jsonBody(\"page\",1)\r",
 							"    .and.have.jsonBody(\"per_page\", 6)\r",
 							"    .and.have.jsonBody(\"total\", 12)\r",
